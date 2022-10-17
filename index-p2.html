@@ -9,11 +9,34 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <a href="./index.html" class="nav-item">HOME</a>
+        <a href="./index-p1.html" class="nav-item">HOME</a>
         <a href="./index-p2.html" class="nav-item">CONTACT</a>
-        <a href="" class="nav-item">OUR CLIENTS</a>
-        <a href="" class="nav-item">GALLERY</a>
+        <a href="./index-p3.html" class="nav-item">OUR CLIENTS</a>
+        <a href="./index-p4.html" class="nav-item">GALLERY</a>
     </nav>
-    <h1>Test</h1>
+    <section class="contact-section">
+        <h1>Contact us today for your ice rental!</h1>
+        <form class="contact-form" action="/form-handling-url" method="post">
+            <fieldset>
+                <div class="info-input">
+                    <label for="fullName">Full name</label><br>
+                    <input type="text" id="fullName" name="full_name">
+                </div>
+                <div class="info-input">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="Email" name="email">
+                </div>
+                <input type="radio" id="over18" name="over-18" value="">
+                <label for="html">I'm more than 18 years old<br> and leagally allowed to rent ice</label>
+                <div class="info-input">
+                    <label for="comments">What are you renting ice for?</label><br>
+                    <textarea id="comments" name="comments" cols="30" rows="5"></textarea>
+                </div>
+                <div class="info-input">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
 </body>
 </html>
