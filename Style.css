@@ -130,3 +130,10 @@ li{
     text-decoration: none;
     font-weight: bolder;
 }
+.review-stars{
+    color: rgb(63, 33, 119);
+    transition: all 1s ease;
+}
+.review-stars:hover{
+    font-size: 18px;
+}
